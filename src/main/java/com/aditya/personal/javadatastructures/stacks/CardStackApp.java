@@ -2,7 +2,7 @@ package com.aditya.personal.javadatastructures.stacks;
 
 
 public class CardStackApp {
-    Stack<String> stack = new ArrayStack<String>();
+    Stack<String> stack = new ListStack<String>();
 
     public static void main(String[] args) {
         CardStackApp app = new CardStackApp();

@@ -36,22 +36,6 @@ public class ArrayStack<T> implements Stack<T> {
         return false;
     }
 
-//    public T access(T item) {
-//
-//        T[] after = (T[]) new Object[1000];
-//        T toReturn = null;
-//        int subtractCount = 0;
-//        for (int i = 0; i < stackPointer; i++) {
-//            if (data[i].equals(item)){
-//                toReturn = data[i];
-//                subtractCount++;
-//            }
-//            else
-//                after[i - subtractCount] = data[i];
-//        }
-//        this.data = after;
-//        return toReturn;
-//    }
 
     public T access(T item) {
 
